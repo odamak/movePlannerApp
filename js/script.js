@@ -70,7 +70,7 @@ function loadData() {
                         + '</li>'
                         )
                 }
-
+                clearTimeout(wikiRequestTimeout);
          }
     } );
 
